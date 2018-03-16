@@ -24,7 +24,7 @@
 @font-face {
     font-family: "DroidSerif";
     font-weight: 400;
-    src:url("../fonts/DroidSerif-BoldItallic-webfont.woff") format("woff");
+    src:url("../fonts/DroidSerif-BoldItalic-webfont.woff") format("woff");
 }
 
 @font-face {
@@ -55,7 +55,7 @@ html {
     color: #5C6366;
     padding: 48px 24px 24px;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; 
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -284,5 +284,8 @@ a:focus {
     h2,
     h3 {
         page-break-after: avoid;
+    }
+    *+h2{
+        margin-top: 48px;
     }
 }
