@@ -1,4 +1,3 @@
-
 /*
     Fonts
     ---
@@ -119,7 +118,9 @@ h2 {
     line-height: 32px;
     margin: 0 0 24px;
 }
-
+* + h2{
+    margin-top: 48px;
+}
 h3 {
     font-size: 18px;
     line-height: 24px;
@@ -195,7 +196,21 @@ a:hover,
 a:focus {
     color: #1abaff;
 }
-
+/*
+    Components: Author
+*/
+.c-author {
+    display: flex;
+    align-items: center;
+}
+.c-author__image {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+.c-author__caption {
+    padding-top : 0;
+}
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {}
@@ -285,7 +300,6 @@ a:focus {
     h3 {
         page-break-after: avoid;
     }
-    *+h2{
-        margin-top: 48px;
-    }
+
+
 }
